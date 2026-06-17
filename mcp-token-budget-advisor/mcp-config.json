@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "token-budget-advisor": {
+      "command": "python3",
+      "args": ["/home/kasm-user/dev/litellm-token-budget-mcp/server.py"],
+      "env": {
+        "LITELLM_MODEL_PRICES_PATH": "/home/kasm-user/dev/litellm/model_prices_and_context_window.json"
+      }
+    }
+  }
+}

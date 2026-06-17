@@ -1,0 +1,11 @@
+[project]
+name = "token-budget-advisor-mcp"
+version = "0.1.0"
+description = "MCP server that uses LiteLLM model pricing data to provide token budget advice"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+token-budget-advisor = "server:mcp.run"
