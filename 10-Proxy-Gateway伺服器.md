@@ -353,6 +353,8 @@ curl http://localhost:4000/v1/chat/completions \
   -d '{"model": "gpt-4o-mini", "messages": [{"role": "user", "content": "Hi"}]}'
 ```
 
+> **深入閱讀**：本章講 Proxy 的概覽。認證授權的完整機制（JWT、OAuth2、RBAC、多租戶隔離）請看 [第二十三章：認證與授權系統完全指南](./23-認證與授權系統完全指南.md)。安全護欄（PII 遮罩、Prompt Injection 偵測）請看 [第二十一章：Guardrails 安全護欄系統](./21-Guardrails-安全護欄系統.md)。
+
 ---
 
 [← 上一章：快取系統](./09-快取系統.md) | [下一章：可觀測性與日誌 →](./11-可觀測性與日誌.md)

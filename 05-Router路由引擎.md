@@ -145,6 +145,8 @@ class LowestLatencyLoggingHandler(CustomLogger):
 | `cost-based-routing` | 最低成本 | 預算有限 |
 | `least-busy` | 最少併發 | 長請求場景 |
 
+> **深入閱讀**：本章只介紹策略概覽。完整的演算法細節（Complexity Router 7 維度評分、Adaptive Router 的 Thompson Sampling）請看 [第二十二章：進階路由策略](./22-進階路由策略.md)。
+
 ## 故障轉移（Fallback）
 
 Router 的另一個核心功能是故障轉移：

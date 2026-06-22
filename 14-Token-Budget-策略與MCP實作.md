@@ -454,4 +454,4 @@ def simulate_migration(from_model: str, to_model: str, monthly_calls: int) -> st
 
 ---
 
-[← 上一章：AI 工程師進階知識](./13-AI工程師進階知識.md) | [回到目錄 →](./00-目錄總覽.md)
+[← 上一章：AI 工程師進階知識](./13-AI工程師進階知識.md) | [下一章：Python LRU Cache 設計原理 →](./15-Python-LRU-Cache-設計原理.md)
